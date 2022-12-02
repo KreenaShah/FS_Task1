@@ -1,0 +1,48 @@
+.login_container {
+    background-image: url(./tt.png);
+    height: 100vh;
+    width:100%;
+    opacity: 0.7;
+    
+}
+
+.login_subContainer {
+    width:300px;
+    height:450px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 6.5%;
+    margin-left: 38%;
+
+    background: rgba( 255, 255, 255, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    box-shadow: 18px -16px teal;
+    /* box-shadow: 5px 10px 20px 5px rgb(135, 181, 255) inset; */
+}
+
+.login_text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.nav {
+    text-decoration: none;
+    color: #fff;
+}
+/* .input {
+    
+} */
+.Invalid {
+    color : red;
+    margin: 0;
+    padding: 0;
+    margin-left: 1.1rem;
+}
